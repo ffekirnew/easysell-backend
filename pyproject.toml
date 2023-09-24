@@ -1,12 +1,15 @@
 [tool.poetry]
-name = "vercel-fastapi-template"
+name = "easysell-backend"
 version = "0.1.0"
 description = ""
-authors = ["Kevin Bradwick <kevinbradwick@gmail.com>"]
+authors = ["Fikernew Birhanu <ffekirnew0808@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
 fastapi = "^0.86.0"
+bson = "^0.5.10"
+pymongo = "^4.5.0"
+python-dotenv = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.2.0"
